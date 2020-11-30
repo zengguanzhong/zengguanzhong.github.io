@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zengguanzhong.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-11-30T12:33:30.898Z</updated>
+    <title>冠中</title>
+    <updated>2020-11-30T12:34:22.245Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zengguanzhong.github.io"/>
     <link rel="self" href="https://zengguanzhong.github.io/atom.xml"/>
     <subtitle>进一步有进一步的喜悦。</subtitle>
     <logo>https://zengguanzhong.github.io/images/avatar.png</logo>
     <icon>https://zengguanzhong.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, 冠中</rights>
 </feed>
