@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zengguanzhong.github.io</id>
     <title>冠中</title>
-    <updated>2020-11-30T12:34:22.245Z</updated>
+    <updated>2020-11-30T12:40:36.480Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zengguanzhong.github.io"/>
     <link rel="self" href="https://zengguanzhong.github.io/atom.xml"/>
@@ -10,4 +10,45 @@
     <logo>https://zengguanzhong.github.io/images/avatar.png</logo>
     <icon>https://zengguanzhong.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 冠中</rights>
+    <entry>
+        <title type="html"><![CDATA[Zotero文献PDF管理—本地归类or云同步 ZotFile 坚果云 ]]></title>
+        <id>https://zengguanzhong.github.io/post/zotero-wen-xian-pdf-guan-li-ben-di-gui-lei-or-yun-tong-bu-zotfile-jian-guo-yun/</id>
+        <link href="https://zengguanzhong.github.io/post/zotero-wen-xian-pdf-guan-li-ben-di-gui-lei-or-yun-tong-bu-zotfile-jian-guo-yun/">
+        </link>
+        <updated>2020-11-30T12:35:07.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p><strong>摘要</strong>   由于<strong>Zotero中的文献pdf附件并不是按照我们在Zotero软件中创建的分类目录存放</strong>，如下图所示，<strong>文件夹名为乱码，附件在文件夹内</strong>，不便于我们对已有文献pdf文件进行分类、整理和同步，<strong>通过安装ZotFile插件，配合坚果云/OneDrive/GoogleDrive等同步软件可以方便地在多平台查看文献</strong>。本文介绍了如何使用ZotFile插件对Zotero中的文献附件进行分类管理。</p>
+</blockquote>
+<figure data-type="image" tabindex="1"><img src="https://zengguanzhong.github.io/post-images/1606739891449.png" alt="" loading="lazy"></figure>
+<h2 id="安装zotfile">安装ZotFile</h2>
+<p>① 从<a href="http://zotfile.com/">官网</a>点击<code>Download</code>下载 <code>zotfile-xxx.xpi</code>文件；</p>
+<p><img src="https://zengguanzhong.github.io/post-images/1606739907432.png" alt="" loading="lazy"><br>
+<img src="2020-11-30-15-08-45.png" alt="" loading="lazy"></p>
+<p>② 打开Zotero开始配置ZotFile，点击<code>工具</code>-&gt;<code>插件</code>，然后点击<code>齿轮</code>-&gt;<code>install Add-on From File..</code>，选择下载的<code>zotfile-xxx.xpi</code>文件等待安装完成即可。</p>
+<figure data-type="image" tabindex="2"><img src="https://zengguanzhong.github.io/post-images/1606739917444.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://zengguanzhong.github.io/post-images/1606739924051.png" alt="" loading="lazy"></figure>
+<h2 id="取消自动同步">取消自动同步</h2>
+<p>由于Zotero的个人免费账户只有<code>300M</code>的同步空间，是不够存放我们所有的文献信息的，所以需要取消<code>自动同步</code>。<strong>需要同步时，手动同步相关的文献信息（只笔记、标签等，不含pdf附件，pdf附件存放在本地或云同步文件夹）。</strong></p>
+<p>① 点击<code>编辑</code>-&gt;<code>首选项</code>；</p>
+<figure data-type="image" tabindex="4"><img src="https://zengguanzhong.github.io/post-images/1606739940760.png" alt="" loading="lazy"></figure>
+<p>② 点击<code>同步</code>，取消所有勾选，然后<code>OK</code>保存；</p>
+<figure data-type="image" tabindex="5"><img src="https://zengguanzhong.github.io/post-images/1606739946387.png" alt="" loading="lazy"></figure>
+<h2 id="配置zotfile">配置ZotFile</h2>
+<p>点击<code>工具</code>-&gt;<code>ZotFile Preferences...</code>，如下图进行配置。</p>
+<figure data-type="image" tabindex="6"><img src="https://zengguanzhong.github.io/post-images/1606739961240.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://zengguanzhong.github.io/post-images/1606739965221.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://zengguanzhong.github.io/post-images/1606739970866.png" alt="" loading="lazy"></figure>
+<h2 id="操作演示">操作演示</h2>
+<p>① 点击<code>我的文库</code>-&gt;选择要归类的论文<code>(可全选)</code>-&gt;在论文目录下<code>右键</code>-&gt;<code>Manage Attachments</code>-&gt;<code>Rename Attachments</code>。</p>
+<figure data-type="image" tabindex="9"><img src="https://zengguanzhong.github.io/post-images/1606739982117.png" alt="" loading="lazy"></figure>
+<p>② 右下角出现Renamed Attachments，然后pdf文件就到了相应的坚果云分类目录下。</p>
+<figure data-type="image" tabindex="10"><img src="https://zengguanzhong.github.io/post-images/1606739988147.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="11"><img src="https://zengguanzhong.github.io/post-images/1606739992012.png" alt="" loading="lazy"></figure>
+<p>③ 整理后的文件夹目录和Zotero中创建的相同，方便我们寻找和阅读。</p>
+<figure data-type="image" tabindex="12"><img src="https://zengguanzhong.github.io/post-images/1606739995941.png" alt="" loading="lazy"></figure>
+<h2 id="参考文章">参考文章</h2>
+<p>[1] <a href="https://zhuanlan.zhihu.com/p/93757626">zotero、zotfile、坚果云之间的爱恨情长</a><br>
+[2] <a href="https://www.cnblogs.com/komean/p/11156675.html">利用ZotFile对Zotero中的文献进行整理</a></p>
+]]></content>
+    </entry>
 </feed>
